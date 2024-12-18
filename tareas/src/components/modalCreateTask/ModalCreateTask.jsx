@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../modalCreateTask/ModalcreateTask.css";
+import "./ModalcreateTask.css";
 
 function ModalcreateTask({
   onClose,

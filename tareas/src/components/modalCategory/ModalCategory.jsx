@@ -1,5 +1,5 @@
 import React from "react";
-import "../modalCategory/ModalCategory.css";
+import "./ModalCategory.css";
 
 function ModalCategory({
   onClose,
