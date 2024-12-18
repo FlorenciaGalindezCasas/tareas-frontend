@@ -1,4 +1,5 @@
-const apiUrl = "https://tareas-backend-3nzy.onrender.com";
+const apiUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:4001";
+
 const fetchTasks = async () => {
   try {
     const res = await fetch(`${apiUrl}/task`, {
@@ -197,5 +198,5 @@ export {
   deleteTask,
   fetchTags,
   createTag,
-  deleteTag
+  deleteTag,
 };
