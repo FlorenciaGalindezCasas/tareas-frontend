@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:4000";
+const apiUrl = "https://tareas-backend-3nzy.onrender.com";
 const fetchTasks = async () => {
   try {
     const res = await fetch(`${apiUrl}/task`, {
