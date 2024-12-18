@@ -1,0 +1,28 @@
+/* Home.css */
+.d-flex {
+  display: flex;
+}
+
+.menu {
+  width: 250px; /* Ancho del menú */
+  transition: transform 0.3s ease; /* Transición suave */
+}
+
+.menu-hidden {
+  transform: translateX(-100%); /* Oculta el menú fuera de la vista */
+}
+
+.main {
+  flex-grow: 1; /* Permite que el Main ocupe el espacio restante */
+  transition: margin-left 0.3s ease; /* Transición suave para el margen */
+}
+
+@media (max-width: 768px) {
+  .menu {
+    width: 100%; /* Ancho completo en pantallas pequeñas */
+  }
+
+  .main {
+    margin-left: 0; /* Sin margen en pantallas pequeñas */
+  }
+}

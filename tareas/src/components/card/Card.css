@@ -1,0 +1,54 @@
+.card{
+    width: 18rem
+}
+
+.tag{
+    align-items: center;
+    justify-content:right;
+}
+
+.btnsNote button svg{
+    vertical-align: center;
+}
+
+.btnsNote button:hover{
+    color: green;
+}
+
+.btnsNote h6{
+    margin:0;
+}
+
+.cardBody{
+    gap:20px;
+}
+
+.card-title{
+    font-size:1.5rem
+}
+
+.card-text, .time{
+    font-size: .9rem;
+}
+
+.btns-edit{
+    justify-content: space-between;
+}
+
+.btn-edit{
+    gap:10px
+}
+
+.btn-delete:hover{
+   color:red 
+} 
+
+.time{
+    align-items:center;
+    gap:5px;
+    color:red
+}
+
+.card.completed {
+  opacity: 0.5; 
+}

@@ -1,0 +1,15 @@
+.profile img{
+    width:30px;
+    height:30px
+    
+}
+.profile{
+    gap:5px;
+    align-items:center;
+
+}
+
+.logo h1{
+    padding-left: 32px;
+    font-family: 'Caveat', cursive;
+}

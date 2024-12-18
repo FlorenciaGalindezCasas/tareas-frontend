@@ -1,0 +1,38 @@
+.register{
+    background-color: #8595BD;
+    min-height:100vh;
+    width: 100%;
+    align-items:center;
+    justify-content:center;
+}
+
+.register h1{
+    padding-left:0px !important;
+    font-size:5rem;
+}
+
+.register-form{
+    padding: 2% 5%;
+    border-radius: 8px;
+    background-color: #A4B1D3;
+}
+
+.register-form h3{
+    text-align: center;
+}
+
+.icon p{
+    text-align: center;
+    color: white;
+}
+
+.btn-register{
+
+    justify-content:center;
+}
+
+.ingreso{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
