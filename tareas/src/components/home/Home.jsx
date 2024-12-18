@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "../Main/Main";
+import Main from "../main/Main";
 import Menu from "../menu/Menu";
 
 function Home() {
